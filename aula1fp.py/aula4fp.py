@@ -20,3 +20,10 @@ print('o valor é %d' %(valor))
 
 decimal = 23.44556
 print('a parte inteira é %d' %(decimal))
+
+texto = 'Olá , asim se quebra a linha ,\n\t entendeu como quebra a linha?\n\t\t fim.'
+print(texto)
+
+
+texto = 'deixa a palavra "entre" aspas'
+print(texto)
