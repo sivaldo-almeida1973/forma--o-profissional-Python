@@ -1,0 +1,5 @@
+print('Sivaldo Vieira de Almeida')
+print('Idade:',39)
+print('Altura:',1.70)
+print('Sivaldo Vieira de Almeida: ',' Idade: ', 39,' Altura: ',1.70)
+print(10, 11,73 , sep='-')
