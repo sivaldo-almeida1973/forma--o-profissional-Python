@@ -51,4 +51,28 @@ texto = 'abcdefg'
 texto = texto[:3] + texto[:4]
 print(texto)
 
+text1 = 'Olá'
+texto2 = 'Olá'
+igual = text1 == texto2
+print('textos são iguais ?', igual)
+
+print('-'*20)
+
+print('a' != 'b')
+print('-'*20)
+texto = ' programação '
+print('a' in texto)
+print('a' in texto)
+print('proggram' in texto)
+print('program' not in texto)
+print('a' in texto)
+print('vinte' not in texto)
+
+#tamanho do texto (len)
+print('-'*20)
+
+brasil = len(texto)
+print(brasil)
+
+print('-'*20)
 
