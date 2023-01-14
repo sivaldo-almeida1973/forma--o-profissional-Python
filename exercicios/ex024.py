@@ -1,0 +1,11 @@
+num1 = input('digite um numero:')
+num2 = input('Digite outro numero:')
+soma = float(num1) +float(num2)
+print('A soma entre %s e %s são %.1f:' % (num1, num2,soma))
+subtracao =float(num1) - float(num2)
+print('A subtração é:',subtracao)
+divisao = float(num1 )/ float(num2)
+print('A divisão é:',divisao)
+mult = float(num1) * float(num2)
+print('a multiplicaçao é:',mult)
+
