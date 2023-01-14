@@ -1,1 +1,1 @@
-num == 20
+soma_atual, num_lido,soma
