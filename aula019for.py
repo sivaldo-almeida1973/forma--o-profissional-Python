@@ -12,7 +12,11 @@
 #for x in range(len(texto)):
  #   print(texto[x])
 letra = input('digite uma letra: ' )
-texto = input('digite uma texto: ' )
-for i in range(0, len(texto)):
-    if letra == texto[i]:
+
+if (len(letra) != 1):
+    print('precisa ter só 1 digito:')
+else:
+    texto = input('digite uma texto: ' )
+    for i in range(0, len(texto)):
+      if letra == texto[i]:
         print('encontrei a letra %s na posição %d '% (letra, i))
