@@ -6,10 +6,11 @@ print(primeira_lista)
 print(segunda_lista)
 
 print('-'*20)
+
 primeiro_elem_primeira_lista = lista[0][0]
 print(primeiro_elem_primeira_lista)
 
 print('-'*20)
 
-primeiro_elem_segunda_lista = lista[1][2]
+primeiro_elem_segunda_lista = lista[1][0]
 print(primeiro_elem_segunda_lista)
