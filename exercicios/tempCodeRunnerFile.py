@@ -1,1 +1,1 @@
-soma_atual, num_lido,soma
+python
