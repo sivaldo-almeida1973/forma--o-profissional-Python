@@ -1,1 +1,1 @@
-sexo
+print('o numero %d é mapeado para o caractere %s' %(numero, caractere))
