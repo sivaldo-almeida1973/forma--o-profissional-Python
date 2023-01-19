@@ -6,6 +6,7 @@ print('o numero %d é mapeado para o caractere %s' %(numero, caractere))
 
 #como gerar caracteres
 print('-'*20)
+
 for i in range(5,50):
     caractere = chr(i)
     print('%d - %s' %(i, caractere), end='\n')
