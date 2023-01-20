@@ -43,3 +43,11 @@ print('desde de o ano 2000 passou', anos, 'anos')
 print('desde de o ano 2000 passou', meses, 'meses')
 
 print(diferenca)
+
+print('-'*30)
+#como pedir pro usuario a data
+import datetime
+data_txt = input('Digite a data no formato dia/mês/ano:')
+datetime = datetime.datetime.strptime(data_txt,'%d/%m/%Y')
+print(datetime)
+print(type(datetime))
