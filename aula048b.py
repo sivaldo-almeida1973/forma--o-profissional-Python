@@ -49,6 +49,6 @@ carro = palio(5)
 carro.aumenta_marcha()
 print(carro.marcha)
 
-carro = ecoSport(5)
+carro = ecoSport(3)
 carro.aumenta_marcha()
 print(carro.marcha)
