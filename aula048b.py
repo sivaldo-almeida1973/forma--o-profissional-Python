@@ -31,7 +31,7 @@ class veiculo:
         self.marcha = min(self.marcha, 5) 
     def diminui_marcha(self):
         self.marcha -= 1
-        self.marcha = min(self.marcha, 1)
+        self.marcha = max(self.marcha, 1)
 
 class palio(veiculo):
     def __init__(self, marcha):
