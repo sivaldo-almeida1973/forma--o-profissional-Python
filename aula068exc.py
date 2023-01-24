@@ -31,4 +31,13 @@ try:
 except AssertionError as erro:
   print('o erro é', str(erro))
 except Exception as erro1:
-  print('erro qualquer>', str(erro1))
+  print('erro qualquer', str(erro1))
+
+
+print('-'*30)
+
+lista = [1]
+try:
+  print(lista[10])
+except IndexError as error:
+  raise error
