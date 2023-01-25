@@ -32,6 +32,9 @@ for x,  y in gen1():
 
 print('-'*30)
 #funções geradoras aninhadas
+
+
+
 def gen1():
     yield 1
     yield 2
