@@ -3,5 +3,5 @@
 def frase (lista):
   return '.'.join(lista) + '.'
 
-textos = ['ola, sou sivaldo','gostode python','trabalho como dev']
+textos = ['ola, sou sivaldo','gosto de python','trabalho como dev']
 print(frase(textos))
