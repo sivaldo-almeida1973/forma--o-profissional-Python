@@ -1,0 +1,18 @@
+{
+    "Alice": {
+        "CPF": "12345678-33",
+        "sexo": "Feminino",
+        "Idade": 38,
+        "Endere\u00e7o": "Caso 245"
+    },
+    "Sivaldo": {
+        "CPF": "987564321-99",
+        "sexo": "Masculino",
+        "Idade": 22,
+        "Endere\u00e7o": "Rua 33",
+        "Filhos": [
+            "rodrigo",
+            "lucas"
+        ]
+    }
+}
