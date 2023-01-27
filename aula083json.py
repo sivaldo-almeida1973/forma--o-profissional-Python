@@ -8,15 +8,15 @@ idades ={
 
 }
 
-print(json.dumps(idades, ensure_ascii=False))
+print(json.dumps(idades))
 print(json.dumps(23))
 print(json.dumps(3.14))
 print(json.dumps([1,2,3,4,5]))
 print(json.dumps(True))
 print(json.dumps(None))
 
-#um pouco mais eleborado
-import json
+#um pouco mais eleborado 1 dicionario com 2 dicionario
+import json 
 DadosPessoa = {
       'Alice':{
         'CPF':'12345678-33',
@@ -36,14 +36,14 @@ DadosPessoa = {
 
       }
 }
-
-texto = json.dumps(DadosPessoa, indent=4)
+#transformar dicionario em objeto (json)
+texto = json.dumps(DadosPessoa, indent=4)#identação 4 esp
 print(texto)
-
+#salvar o json 
 with open('exemplo.json','wt') as arquivo:#salvar arquivo
   arquivo.write(texto)
 
-
+#ler arquivo json
 import json
 dicionario = None
 with open('exemplo.json', 'rt') as arquivo:
