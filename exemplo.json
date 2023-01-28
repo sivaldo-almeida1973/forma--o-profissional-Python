@@ -1,17 +1,22 @@
 {
-    "Alice": {
-        "CPF": "12345678-33",
-        "sexo": "Feminino",
-        "Idade": 38,
-        "Endere\u00e7o": "Caso 245"
+    "lucas": {
+        "CPF": "12312312311",
+        "Sexo": "Masculino",
+        "Endereco": "Rua Brasil",
+        "Idade": 22
     },
-    "Sivaldo": {
-        "CPF": "987564321-99",
-        "sexo": "Masculino",
-        "Idade": 22,
-        "Endere\u00e7o": "Rua 33",
-        "Filhos": [
-            "rodrigo",
+    "sivaldo": {
+        "CPF": "99876588900",
+        "Sexo": "Masculino",
+        "Endereco": "Rua Brasil",
+        "Idade": 43
+    },
+    "Alice": {
+        "CPF": "777655444333",
+        "Sexo": "Feminino",
+        "Endereco": "Rua Brasil",
+        "Idade": 43,
+        "filhos": [
             "lucas"
         ]
     }
