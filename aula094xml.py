@@ -2,16 +2,14 @@ import xml.etree.ElementTree as xml
 import os
 
 def criaTagPesoa(nome, cpf, sexo, endereco):
-  no_pessoa = xml.Element('Pessoa', attrib={'Nome': 'Nome'})
+  no_pessoa = xml.Element('Pessoa', attrib={'Nome': nome})
   no_cpf = xml.SubElement(no_pessoa, 'CPF')
   no_cpf.text = cpf
-
-
   no_sexo = xml.SubElement(no_pessoa, 'Sexo')
-  no_cpf.text = sexo
+  no_sexo.text = sexo
 
   no_endereco = xml.SubElement(no_pessoa, 'Endereco')
-  no_cpf.text = endereco
+  no_endereco.text = endereco
 
   return no_pessoa
 
