@@ -1,0 +1,63 @@
+# ^ deve começar com o sinal de ^(-) mas a ocorrencia do #menos é de 1 e 0 vezes
+#depois espera numeros de 1 até 9(+) terminar ($)
+import re
+texto = '10 C°'
+#criar expressão regualr
+info = re.search('^(-)?[0-9]+ C°$', texto)
+
+if info != None:
+  print('Temperatura válida')
+else:
+  print('Temperatura inválida')
+
+
+
+print('-'*30)
+#^começar
+# $terminar
+import re
+texto = '99224466'
+#criar expressão regualr
+info = re.search('^99({[0-9]{6})$', texto)
+
+if info != None:
+  print('Numero válido')
+else:
+  print('Numero inválido')
+
+#verificar se frase possui 2 palavras
+
+
+print('-'*30)
+# ^começar A-Z ou a-z
+# +  + qualquer num de palavras e pode ter espaços
+#seguidas de A-Z ou a-z
+# + *$ pode ter uma coleção de espaços no final
+import re
+texto = 'Texto teste'
+
+info = re.search('(^[A-Za-z]+ +[A-Za-z]+ *$)',texto)
+if info != None:
+  print('Econtrada ocorrencia em', info.span())
+  print('O que foi encontrado', info.group())
+else:
+  print('Padrão não encontrado')
+
+
+print('-'*30)
+#quer validar a entrada de uma data DD/MM/AAAA
+# O dia pode variar de 00 a 31
+#O mês de 00 a 12
+#O ano de 0000 a 9999
+#regras para validar data
+
+texto = '31/06/1998'
+
+info = re.search('^([0-2][0-9]|[3][0-1])/([0][1-9]|[1][0-2])/([0-9]){4}$', texto)
+if info != None:
+  print('Data válida')
+else:
+  print('Data invalida')
+
+
+
