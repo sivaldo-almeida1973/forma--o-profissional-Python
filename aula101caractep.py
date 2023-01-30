@@ -1,3 +1,6 @@
+import re
+texto = '1111111'
+info = re.search
 if info != None:
   print('Encontrada ocorrencia em', info.span())
   print('O que foi encontrado ', info.group())
