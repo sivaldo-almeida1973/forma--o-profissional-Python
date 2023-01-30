@@ -2,7 +2,7 @@
 #se um dado é valido:email,data,hora etc
 #se um texto possui uma determinda letraou palavra
 #Extrair determinadas parte de um texto(por ex: CEP)
-#substituir caracteres(% po %% em URLS)
+#substituir caracteres(% por %% em URLS)
 #metodo (search) caracteristicas de procurar:
 #span (posição inicial e final) e group(e o que foi encontrado)
 import re
