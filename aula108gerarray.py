@@ -59,3 +59,13 @@ array_float = numpy.random.rand(4,4)
 array_int =  numpy.random.randint(5,11 ,(5,5))
 print(array_float)
 print(array_int)
+
+
+print('-'*30)
+# list Comprehension(como criar uma lista)
+import numpy
+array = numpy.array([[i for i in range(0,3)],
+                    [i for i in range(3,6)],
+                    [i for i in range(6,9)]]
+)
+print(array)
