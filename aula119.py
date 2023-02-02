@@ -1,4 +1,4 @@
-#Acululadores
+#Acumuladores
 #somar todos os elementos de um array (sum)
 import numpy
 array = numpy.array([[1,2,3], [4,5,6]])
