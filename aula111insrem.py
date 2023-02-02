@@ -4,7 +4,7 @@ array = np.array([[1,2,3],[5,6,7],[7,8,9]])
 print(array, end='\n\n')
 array[0] = [1,2,4]#substituir valores na linha 0
 array[1,1:3] = [0,0]#trocar na linha 1
-array[0:,2] = 10 # troacr na linha 0 na pos 0
+array[0:,2] = 10 # trocar na linha 0 na pos 0
 print(array)
 
 print('-'*30)
@@ -29,7 +29,7 @@ print(array, end='\n\n')
 array2 = np.append(array, [0,0,0])
 print(array2)
 
-#vamos concertar o de cima(tenho que inforamar onde quero substituir) se não #provoca o fleping
+#vamos concertar o de cima(tenho que informar onde quero substituir) se não #provoca o fleping
 print('-'*30)
 import numpy as np
 array = np.array([[1,2,3],[4,5,6],[7,8,9]])
