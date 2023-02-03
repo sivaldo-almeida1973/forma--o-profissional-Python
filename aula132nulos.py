@@ -26,7 +26,7 @@ print(data)
 
 import pandas as pd
 data = pd.read_csv('funcionarios.csv', index_col='Nome')
-
+#inserir valor nulo
 data.loc['Sivaldo','Idade'] = None
 print(data)
 
