@@ -102,7 +102,7 @@ font_props = {
 'size'  : 16
 
 }
-
+#personalização do texto
 font_props2 = {
 'family':'arial',
 'color':'red',
