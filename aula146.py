@@ -8,7 +8,7 @@ y = numpy.array([2,4,6,8,10])
 plt.bar(x,y, color='g' ,width=0.5)
 print(plt.show())
 
-#Graficos de Barras(bar)barras horizontais
+#Graficos de Barras(barh)barras horizontais
 import matplotlib.pyplot as plt
 import numpy
 
