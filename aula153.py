@@ -15,4 +15,3 @@
 
 #Serviço Ficticio de Cotação de Moeda 
 
-import flask
